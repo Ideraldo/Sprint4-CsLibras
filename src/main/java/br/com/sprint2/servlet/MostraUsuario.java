@@ -25,8 +25,6 @@ public class MostraUsuario extends HttpServlet {
 		
 		Usuario usuario = dao.buscarPorId(id);
 		
-		System.out.println(usuario.getNome());
-
 		request.setAttribute("usuario", usuario);
 		
 		RequestDispatcher rd = request.getRequestDispatcher("/alteraUsuario.jsp");

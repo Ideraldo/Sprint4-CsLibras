@@ -18,9 +18,7 @@ private static final long serialVersionUID = 1L;
 		
 		String paramId = request.getParameter("id");
 		Integer id = Integer.parseInt(paramId);
-		
-		System.out.println(id);
-		
+				
 		UsuarioDAO dao = new UsuarioDAO();
 		dao.remover(id);
 		

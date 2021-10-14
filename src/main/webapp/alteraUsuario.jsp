@@ -26,32 +26,18 @@
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="/Sprint2"">Home</a></li>
+							aria-current="page" href="/Sprint4"">Home</a></li>
 
 						<li class="nav-item dropdown"><a
 							class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 							role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Usuarios </a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="/Sprint2/cadastro">Cadastrar
+								<li><a class="dropdown-item" href="/Sprint4/cadastro">Cadastrar
 										novo usuario</a></li>
 								<li><hr class="dropdown-divider"></li>
 								<li><a class="dropdown-item"
-									href="/Sprint2/listagemUsuario">Todos os usuarios</a></li>
-							</ul></li>
-
-						<li class="nav-item dropdown"><a
-							class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-							role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								Catalogo </a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="">Cadastrar
-										categoria no catalogo</a></li>
-								<li><a class="dropdown-item" href="">Listar itens do
-										catalogo</a></li>
-								<li><hr class="dropdown-divider"></li>
-								<li><a class="dropdown-item" href="/mesa">Listar itens
-										catalogo</a></li>
+									href="/Sprint4/listagemUsuario">Todos os usuarios</a></li>
 							</ul></li>
 					</ul>
 				</div>

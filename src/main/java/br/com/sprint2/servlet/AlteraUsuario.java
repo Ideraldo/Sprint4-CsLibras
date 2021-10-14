@@ -24,12 +24,7 @@ public class AlteraUsuario extends HttpServlet{
 		
 		String paramId = request.getParameter("id");
 		int id = Integer.valueOf(paramId);
-		
-		System.out.println(nome);
-		System.out.println(senha);
-		System.out.println(paramId);
-		System.out.println(id);
-		
+				
 		UsuarioDAO dao = new UsuarioDAO();
 		Usuario usuario = new Usuario();
 		Usuario usuarioEncontrado = dao.buscarPorId(id);
